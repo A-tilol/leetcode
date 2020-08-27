@@ -71,6 +71,7 @@ func (t *Trie) StartsWith(prefix string) bool {
  * param_3 := obj.StartsWith(prefix);
  */
 
+// algorithm data structure: Tire, Prefix Tree
 func main() {
 	trie := Constructor()
 	trie.Insert("apple")
